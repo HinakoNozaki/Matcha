@@ -347,7 +347,7 @@ a.fbbutton2:hover {
 }
 
 .mobileBox1 {
-    width: 460px;
+    width: 380px;
     height: 370px;
     /*margin: 0px 12px;*/
     margin-top: 100px;
@@ -358,7 +358,7 @@ a.fbbutton2:hover {
     display: block;
 }
 .mobileBox2 {
-    width: 240px;
+    width: 190px;
     height: 370px;
     /*margin: 0px 12px;*/
     margin-top: 100px;
@@ -371,7 +371,7 @@ a.fbbutton2:hover {
 
 
 .html {
-    width: 180px;
+    width: 150px;
     height: 330px;
     margin: 0px 12px;
     /*margin-top: 100px;*/
@@ -483,7 +483,7 @@ a.fbbutton2:hover {
 }
 
 .courses iframe {
-    width: 400px;
+    width: 360px;
     height: 300px;
     margin: 0 auto;
     display: block;
