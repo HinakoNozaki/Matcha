@@ -161,12 +161,10 @@ img {
     overflow: hidden;
     background: #fff;
     width: 100%;
-
     /*padding: 16px;*/
     padding-top: 50px;
     margin: 0 auto;
     display: block;
-
     /*float: left;*/
 }
 
@@ -191,9 +189,12 @@ img {
     display: block;
 }
 
+
+
 .right-box {
     float: none;
-    width: 410px;
+    font-size: 12px;
+    width: 300px;
     margin-left: 90px;
     margin-top: 20px;
     padding-top: 50px;
@@ -202,16 +203,19 @@ img {
 
 .left-box {
     float: none;
-    width: 410px;
+    font-size: 12px;
+    width: 300px;
     margin-right: 90px;
     margin-bottom: 150px;
     margin-top: 20px;
     padding-top: 50px;
+    
     margin: 0 auto;
 }
 
 .register {
     text-align: center;
+    margin-top: 40px;
 }
 
 a.fbbutton1 {
@@ -219,6 +223,7 @@ a.fbbutton1 {
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
     font-size: 16px;
     padding: 8px 32px;
+   
     background: #3D5CDB;
     color: #f9f9f9;
     /*border: 1px solid #000;*/
