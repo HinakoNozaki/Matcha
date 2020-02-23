@@ -76,7 +76,7 @@ p {
 }
 
 #header {
-    width: 1080px;
+    width: 1024px;
     overflow: hidden;
     background: #00000000;
     padding: 6px 0px;
@@ -149,7 +149,8 @@ img {
 }
 */
 .container {
-    width: 1500px;
+    /*width: 1024px;*/
+    width: 100%;
 
     margin: 0 auto;
     display: block;
@@ -158,7 +159,8 @@ img {
 #main {
     overflow: hidden;
     background: #fff;
-    width: 1500px;
+    /*width: 1024px;*/
+    width: 100%;
 
     /*padding: 16px;*/
     padding-top: 50px;
@@ -169,11 +171,11 @@ img {
 }
 
 .container img {
-    float: left;
+    /*float: left;*/
 }
 
 .right-box {
-    float: left;
+    float: right;
     width: 410px;
     margin-left: 90px;
     margin-top: 20px;
