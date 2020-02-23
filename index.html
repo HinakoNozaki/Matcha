@@ -5,7 +5,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Happy Hack</title>
-    
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="jquery.bxslider.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <script src="jquery.bxslider.min.js"></script>
+    <script src="particles.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+
+
+    <script type="text/javascript" src="jquery/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="jquery/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="jquery/slick-theme.css" media="screen" />
 </head>
 
 <body>
@@ -30,9 +42,9 @@
     </div>
 
     <div class="container">
-       <div id="main">
-        <h1>Introduction</h1>
-        
+        <div id="main">
+            <h1>Introduction</h1>
+
             <div class="content" id=contents1>
 
                 <img src="images/introduction_001.jpg" alt="" width="450">
@@ -41,7 +53,7 @@
                         <p>Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。<br>特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。<br>誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。</p>
                     </div>
                     <div class="register">
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="fbbutton1">会員登録</a>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="fbbutton1">会員登録</a>
                     </div>
                 </div>
             </div>
@@ -50,68 +62,105 @@
                 <div class="left-box">
                     <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で７つ準備をしています。WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。</p>
                     <div class="register">
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="fbbutton2">会員登録</a>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="fbbutton2">会員登録</a>
                     </div>
                 </div>
                 <div class="animation2">
                     <img src="images/introduction_002.jpg" alt="" width="450">
                 </div>
             </div>
-           </div>
-    
+        </div>
+
 
     </div>
+
+
     <div class="courses" id="courses">
-        <h1>Courses</h1>
-        <div id="course">
-            <div class="htmlBox">
-                <div class="html">
-                    <img src="images/html.png" alt="" width="100">
-                    <p>HTMLコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="html">このコースを受ける</a>
+        <div id="particles-js">
+            <h1>Courses</h1>
+            <div id="course">
+                <div class="htmlBox">
+                    <div class="html">
+                        <img src="images/html.png" alt="" width="100">
+                        <p>HTMLコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="html">このコースを受ける</a>
+                    </div>
+                    <div class="html">
+                        <img src="images/css.png" alt="" width="100">
+                        <p>CSSコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="css">このコースを受ける</a>
+                    </div>
+                    <div class="html">
+                        <img src="images/unity.png" alt="" width="100">
+                        <p>Unityコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="unity">このコースを受ける</a>
+                    </div>
+                    <div class="html">
+                        <img src="images/ruby.png" alt="" width="100">
+                        <p>Rubyコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="ruby">このコースを受ける</a>
+                    </div>
                 </div>
-                <div class="html">
-                    <img src="images/css.png" alt="" width="100">
-                    <p>CSSコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="css">このコースを受ける</a>
-                </div>
-                <div class="html">
-                    <img src="images/unity.png" alt="" width="100">
-                    <p>Unityコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="unity">このコースを受ける</a>
-                </div>
-                <div class="html">
-                    <img src="images/ruby.png" alt="" width="100">
-                    <p>Rubyコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="ruby">このコースを受ける</a>
+                <div class="jsBox">
+                    <div class="html">
+                        <img src="images/js.png" alt="" width="100">
+                        <p>JavaScriptコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="js">このコースを受ける</a>
+                    </div>
+                    <div class="html">
+                        <img src="images/swift.png" alt="" width="100">
+                        <p>Swiftコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="swift">このコースを受ける</a>
+                    </div>
+                    <div class="html">
+                        <img src="images/go.png" alt="" width="100">
+                        <p>Goコース</p>
+                        <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="go">このコースを受ける</a>
+                    </div>
                 </div>
             </div>
-            <div class="jsBox">
-                <div class="html">
-                    <img src="images/js.png" alt="" width="100">
-                    <p>JavaScriptコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="js">このコースを受ける</a>
-                </div>
-                <div class="html">
-                    <img src="images/swift.png" alt="" width="100">
-                    <p>Swiftコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="swift">このコースを受ける</a>
-                </div>
-                <div class="html">
-                    <img src="images/go.png" alt="" width="100">
-                    <p>Goコース</p>
-                    <a href="https://www.facebook.com/profile.php?id=100034244992160" class="cbutton" id="go">このコースを受ける</a>
-                </div>
-            </div>
+
         </div>
     </div>
+    
     <div class="courses" id="images">
         <h1>Images</h1>
-        <img src="images/hero.png" alt="" width="100">
+        <!--
+        <div class="slider">
+            <div>I am a slide.</div>
+            <div>I am another slide.</div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $('.slider').bxSlider();
+            });
+        </script>
+        -->
+        <div class="slick-box">
+            <figure><img src="images/hero.jpg" width="" height="" alt="" /></figure>
+            <figure><img src="images/background2.jpg" width="" height="" alt="" /></figure>
+            <figure><img src="images/background3.jpg" width="" height="" alt="" /></figure>
+            <figure><img src="images/background4.jpg" width="" height="" alt="" /></figure>
+            <figure><img src="images/background5.jpg" width="" height="" alt="" /></figure>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                $('.slick-box').slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    dots: true
+                });
+            });
+        </script>
+
     </div>
     <div class="courses" id="access">
         <h1>Access</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3129539477477!2d135.49025991496976!3d34.69728569090934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1582427818667!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <footer>&copy; 2019 Happy Hack Inc.</footer>
+
+    <script src="jquery/particles.min.js"></script>
+    <script src="jquery/app.js"></script>
 </body></html>

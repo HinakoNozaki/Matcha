@@ -7,6 +7,7 @@
     font-family: 'TopFont';
     src: url(/fonts/Futura-Med.ttf);
 }
+
 @font-face {
     font-family: 'MainFont';
     src: url(/fonts/Futura-MedObl.ttf);
@@ -56,7 +57,7 @@ p {
     padding: 6px 0px;
     position: absolute;
     top: 0px;
-    
+
 }
 
 .logo {
@@ -105,7 +106,7 @@ nav h1{
 }
 */
 nav a {
-    
+
     font-size: 30px;
     font-family: TopFont;
     display: block;
@@ -127,23 +128,25 @@ img {
 */
 .container {
     width: 1500px;
+
     margin: 0 auto;
-     display: block;
+    display: block;
 }
 
 #main {
     overflow: hidden;
     background: #fff;
     width: 1500px;
+  
     /*padding: 16px;*/
     padding-top: 50px;
     margin: 0 auto;
-     display: block;
-    
+    display: block;
+
     /*float: left;*/
 }
 
-.container img{
+.container img {
     float: left;
 }
 
@@ -151,16 +154,17 @@ img {
     float: left;
     width: 410px;
     margin-left: 18px;
-    
+
 }
 
 .left-box {
     float: left;
     width: 410px;
     margin-right: 18px;
+    margin-bottom: 150px;
 }
 
-.register{
+.register {
     text-align: center;
 }
 
@@ -214,7 +218,7 @@ a.fbbuttopn2:hover {
     width: 1000px;
     margin: 0 auto;
     display: block;
- 
+
     /*
     width 100px;
     background: #000000;*/
@@ -235,10 +239,22 @@ a.fbbuttopn2:hover {
     border-bottom: 0;
 }
 
+
+#particles-js {
+    width: 100%;
+    background-color: rgba(186, 213, 245, 0.7);
+    position: relative;
+}
+#courses{
+    position: absolute;
+    margin: 0 auto;
+}
+
 .courses {
     margin-top: 40px;
-
+    
 }
+
 
 .courses h1 {
     margin-bottom: 60px;
@@ -285,7 +301,7 @@ a.fbbuttopn2:hover {
     margin-bottom: 20px;
     background: #fff;
     padding: 8px;
-    position:relative;
+    position: relative;
     float: left;
 }
 
@@ -314,14 +330,14 @@ a.fbbuttopn2:hover {
 
     color: #f9f9f9;
     /*border: 1px solid #000;*/
-    
+
     border-radius: 10px;
     text-decoration: none;
-    
-    position:absolute;
-    bottom:30px;
+
+    position: absolute;
+    bottom: 30px;
     text-align: center;
-    
+
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
@@ -330,15 +346,15 @@ a.fbbuttopn2:hover {
 
 #course p {
     font-size: 15px;
-   width: 150px;
-   text-align: center;
-    position:absolute;
-    bottom:95px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    bottom: 95px;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
     /*bottom:100px;*/
-    
+
 }
 
 #html {
@@ -367,6 +383,21 @@ a.fbbuttopn2:hover {
 
 #go {
     background: #66CCCC;
+}
+
+/*imagesのスライドショー*/
+.slick-box {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.slick-box img {
+    /*height: auto;*/
+    width: 100%;
+}
+
+#images{
+    margin-bottom: 100px;
 }
 
 .courses iframe {
