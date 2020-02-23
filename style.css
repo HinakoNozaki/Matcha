@@ -28,7 +28,7 @@ p {
     height: 500px;
     background: #fff url(images/introduction_002.jpg) 0 0 no-repeat;
     background-size: cover;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
     position: relative;
     /*position: absolute;*/
     /*padding-top: 60px;*/
@@ -63,6 +63,7 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /*
 h2.we {
     position: absolute;
@@ -71,9 +72,11 @@ h2.we {
 }
 */
 nav {
+    
     overflow: hidden;
     z-index: 2;
 }
+
 
 nav li {
     list-style-type: none;
@@ -108,6 +111,42 @@ img {
     float: left;
 }
 */
+.container {
+    width: 100%;
+   
+    margin: 0 auto;
+}
+
+#main {
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    /*padding: 16px;*/
+    padding-top: 50px;
+    /*float: left;*/
+}
+
+
+
+.container img{
+    float: left;
+}
+
+.right-box {
+    float: left;
+    width: 410px;
+    margin-left: 18px;
+}
+
+.left-box {
+    float: left;
+    width: 410px;
+    margin-right: 18px;
+}
+
+.register{
+    text-align: center;
+}
 
 a.fbbutton1 {
     margin-top: 16px;
@@ -142,11 +181,6 @@ a.fbbuttopn2:hover {
 }
 
 
-.container {
-    width: 640px;
-    margin: 0 auto;
-}
-
 /*
 #header h1{
     float: left;
@@ -159,6 +193,9 @@ a.fbbuttopn2:hover {
     border-bottom: 1px solid #eee;
     padding: 16px 0;
     overflow: hidden;
+    /*
+    width 100px;
+    background: #000000;*/
 }
 
 .top-title {
@@ -170,39 +207,21 @@ a.fbbuttopn2:hover {
     border-left: 6px solid #e63c35;
 }
 
-.right-box {
-    float: left;
-    width: 288px;
-    margin-left: 18px;
-}
 
-.left-box {
-    float: left;
-    width: 288px;
-    margin-right: 18px;
-}
-
-#main {
-    width: 608px;
-    margin: 0 auto;
-    overflow: hidden;
-    background: #fff;
-    padding: 16px;
-    /*float: left;*/
-}
 
 .content:last-child {
     border-bottom: 0;
 }
 
-.courses{
+.courses {
     margin-top: 40px;
-    
+
 }
 
-.courses h1{
+.courses h1 {
     margin-bottom: 60px;
 }
+
 /*
 #course{
     
@@ -214,8 +233,8 @@ a.fbbuttopn2:hover {
     background: #fff;
     padding: 8px;
 }*/
-.htmlBox{
-   width: 960px;
+.htmlBox {
+    width: 960px;
     height: 370px;
     margin: 0px 12px;
     margin-top: 100px;
@@ -224,8 +243,9 @@ a.fbbuttopn2:hover {
     padding: 8px;
     margin: 0 auto;
 }
-.jsBox{
-   width: 720px;
+
+.jsBox {
+    width: 720px;
     height: 370px;
     margin: 0px 12px;
     margin-top: 100px;
@@ -234,8 +254,9 @@ a.fbbuttopn2:hover {
     padding: 8px;
     margin: 0 auto;
 }
-.html{
-   width: 200px;
+
+.html {
+    width: 200px;
     height: 330px;
     margin: 0px 12px;
     /*margin-top: 100px;*/
@@ -246,12 +267,13 @@ a.fbbuttopn2:hover {
 }
 
 
-#course img{
+#course img {
     margin: 0 auto;
     display: block;
     margin-top: 30px;
     /*margin-bottom: 30px;*/
 }
+
 /*
 .cimg{
     margin-bottom: 16px;
@@ -259,7 +281,7 @@ a.fbbuttopn2:hover {
 }*/
 
 
-#course p{
+#course p {
     font-size: 15px;
     top: 300px;
     margin-bottom: 10px;
@@ -267,11 +289,11 @@ a.fbbuttopn2:hover {
 }
 
 .cbutton {
-    
+
     font-size: 13px;
     width: 130px;
     padding: 13px 30px;
-    
+
     color: #f9f9f9;
     /*border: 1px solid #000;*/
     text-align: center;
@@ -282,28 +304,44 @@ a.fbbuttopn2:hover {
     /*margin-bottom: 20px;*/
 }
 
-#html{
+#html {
     background: #FF4400;
 }
-#css{
+
+#css {
     background: #00BFFF;
 }
 
-#unity{
+#unity {
     background: #333333;
 }
 
-#ruby{
+#ruby {
     background: #FF4F50;
 }
-#js{
+
+#js {
     background: #FFCC00;
 }
-#swift{
+
+#swift {
     background: #FF9900;
 }
-#go{
+
+#go {
     background: #66CCCC;
+}
+
+.courses iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    color: #00F;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -327,10 +365,11 @@ p.new{
     top: 16px;
 }
 */
+/*
 #contents1 {
     position: relative;
 }
-
+*/
 /*
 .animation1{
     position: relative;
