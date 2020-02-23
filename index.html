@@ -11,6 +11,7 @@
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
     <script src="jquery.bxslider.min.js"></script>
     <script src="particles.js"></script>
+    <script src="jquery/bgswitcher.js"></script>
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 
 
@@ -21,26 +22,26 @@
 </head>
 
 <body>
-
-    <div id="container">
-        <div class="main-visual">
-            <div class="logo">
-                <img src="images/logo.png" alt="" width="500">
-                <h2 class="we">We are Web Designers.</h2>
+    <div class="bg-slider">
+        <div id="container">
+            <div class="main-visual">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="500">
+                    <h2 class="we">We are Web Designers.</h2>
+                </div>
+            </div>
+            <div id="header">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Introduction</a></li>
+                        <li><a href="#courses">Cources</a></li>
+                        <li><a href="#images">Images</a></li>
+                        <li><a href="#access">Access</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <div id="header">
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Introduction</a></li>
-                    <li><a href="#courses">Cources</a></li>
-                    <li><a href="#images">Images</a></li>
-                    <li><a href="#access">Access</a></li>
-                </ul>
-            </nav>
-        </div>
     </div>
-
     <div class="container">
         <div id="main">
             <h1>Introduction</h1>
@@ -122,7 +123,7 @@
 
         </div>
     </div>
-    
+
     <div class="courses" id="images">
         <h1>Images</h1>
         <!--
@@ -160,7 +161,13 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3129539477477!2d135.49025991496976!3d34.69728569090934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1582427818667!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <footer>&copy; 2019 Happy Hack Inc.</footer>
-
+    <script>
+        jQuery(function($) {
+            $('.bg-slider').bgSwitcher({
+                images: ['images/hero.jpg', 'images/background2.jpg', 'images/background3.jpg', 'images/background4.jpg', 'images/background5.jpg'], // 切り替える背景画像を指定
+            });
+        });
+    </script>
     <script src="jquery/particles.min.js"></script>
     <script src="jquery/app.js"></script>
 </body></html>
