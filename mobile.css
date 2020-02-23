@@ -21,10 +21,12 @@ body {
 
 h1 {
     font-family: TopFont;
-    font-size: 50px;
+    font-size: 40px;
     color: #3D5CDB;
     margin-bottom: 10px;
     text-align: center;
+    margin: 0 auto;
+   
 }
 
 
@@ -65,23 +67,30 @@ p {
     /*position: relative;*/
 }
 
+
 .logo {
     font-family: MainFont;
-    font-size: 25px;
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
+   
+}
+.logo img{
+    
+    width: 280px;
 }
 
+
 #header {
-    width: 1080px;
+    width: 1400px;
     overflow: hidden;
     background: #00000000;
     padding: 6px 0px;
     position: relative;
-
+    display: none;
     z-index: 2;
     float: right;
 
@@ -101,14 +110,7 @@ nav li {
     margin-top: 2px;
 }
 
-/*
-nav h1{
-    font-size: 32px;
-    padding: 8px 16px;
-    color: #f9f9f9;
-    text-shadow: 1px 1px 1px #000;
-}
-*/
+
 nav a {
 
     font-size: 30px;
@@ -122,8 +124,8 @@ nav a {
 }
 
 nav a:hover {
-    /*border-bottom: 3px solid #f9f9f9;*/
-    color: #3D5CDB;
+    
+    color: #941279;
 }
 
 
@@ -173,14 +175,14 @@ img {
 }
 
 .right-box {
-    float: left;
+    /*float: left;*/
     width: 410px;
     margin-left: 90px;
     margin-top: 20px;
 }
 
 .left-box {
-    float: left;
+    /*float: left;*/
     width: 410px;
     margin-right: 90px;
     margin-bottom: 150px;
