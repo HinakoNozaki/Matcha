@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/*フォント自信ない（特に日本語）*/
 @font-face {
     font-family: 'TopFont';
     src: url(/fonts/Futura-Med.ttf);
@@ -26,7 +27,7 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
     margin: 0 auto;
-   
+
 }
 
 
@@ -50,7 +51,7 @@ p {
 
 .main-visual {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     /*height: 500px;*/
     /*background: #fff url(images/introduction_002.jpg) 0 0 no-repeat;
     background-size: cover;*/
@@ -76,16 +77,19 @@ p {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-   
+
 }
-.logo img{
-    
+
+.logo img {
+
     width: 280px;
 }
 
 
 #header {
-    width: 1400px;
+    /*width: 1024px;*/
+    /*これじゃなかった*/
+    width: 100%;
     overflow: hidden;
     background: #00000000;
     padding: 6px 0px;
@@ -124,7 +128,7 @@ nav a {
 }
 
 nav a:hover {
-    
+
     color: #941279;
 }
 
@@ -155,6 +159,7 @@ img {
 
     margin: 0 auto;
     display: block;
+
 }
 
 #main {
@@ -165,6 +170,7 @@ img {
     padding-top: 50px;
     margin: 0 auto;
     display: block;
+
     /*float: left;*/
 }
 
@@ -173,7 +179,7 @@ img {
     padding: 40px 0;
     overflow: hidden;
     width: 100%;
-    
+
     margin: 0 auto;
     display: block;
 
@@ -209,7 +215,7 @@ img {
     margin-bottom: 150px;
     margin-top: 20px;
     padding-top: 50px;
-    
+
     margin: 0 auto;
 }
 
@@ -223,7 +229,7 @@ a.fbbutton1 {
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
     font-size: 16px;
     padding: 8px 32px;
-   
+
     background: #3D5CDB;
     color: #f9f9f9;
     /*border: 1px solid #000;*/
@@ -282,6 +288,7 @@ a.fbbutton2:hover {
     background-color: rgba(186, 213, 245, 0.7);
     position: relative;
     height: 1700px;
+
 }
 
 #courses {
@@ -330,7 +337,7 @@ a.fbbutton2:hover {
     */
     width: 100%;
 }
-    
+
 
 .jsBox {
     /*
@@ -346,6 +353,7 @@ a.fbbutton2:hover {
     width: 100%;
 }
 
+/*若干右寄りな気がする*/
 .mobileBox1 {
     width: 360px;
     height: 370px;
@@ -357,6 +365,7 @@ a.fbbutton2:hover {
     margin: 0 auto;
     display: block;
 }
+
 .mobileBox2 {
     width: 180px;
     height: 370px;
