@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: 'TopFont';
-    src: url(/fonts/Futura-Med.ttf);
+    font-family: 'ETopFont';
+    src: url(/fonts/Oranienbaum.ttf);
 }
 
 @font-face {
-    font-family: 'MainFont';
-    src: url(/fonts/Futura-MedObl.ttf);
+    font-family: 'JTopFont';
+    src: url(/fonts/Hannari.otf);
 }
 
 
@@ -20,9 +20,9 @@ body {
 }
 
 h1 {
-    font-family: TopFont;
-    font-size: 50px;
-    color: #3D5CDB;
+    font-family: ETopFont;
+    font-size: 60px;
+    color: #78422a;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -32,6 +32,54 @@ p {
     margin-bottom: 16px;
     line-height: 1.5;
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+.main-visual {
+    width: 100%;
+    /*height: 100vh;*/
+    height: 774px;
+    background: #fff url(images/mainvisual1.png) 0 0 no-repeat;
+    background-size: cover;
+    /*margin-bottom: 32px;*/
+    /*position: relative;*/
+
+    /*position: absolute;*/
+    /*padding-top: 60px;*/
+}
+
+.area {
+    width: 100%;
+    height: 500px;
+    background: #f7f3e980;
+    padding-top: 36px;
+
+}
+
+.area h1 {
+    margin-bottom: 56px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'JTopFont';
+    color: #78422a;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    width: 180px;
+    color: #78422a;
+    text-decoration: none;
+    border: 1px solid #78422a;
+    padding: 5px 0;
+    margin: 11px 16px;
+}
+
+.areaMap img {
+    width: 100%;
 }
 
 .bg-slider {
@@ -46,18 +94,7 @@ p {
     z-index: 0;
 }
 
-.main-visual {
-    width: 100%;
-    height: 100vh;
-    /*height: 500px;*/
-    /*background: #fff url(images/introduction_002.jpg) 0 0 no-repeat;
-    background-size: cover;*/
-    /*margin-bottom: 32px;*/
-    position: relative;
 
-    /*position: absolute;*/
-    /*padding-top: 60px;*/
-}
 
 
 #container {
@@ -66,8 +103,6 @@ p {
 }
 
 .logo {
-    font-family: MainFont;
-    font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,8 +111,7 @@ p {
 }
 
 .logo img {
-
-    width: 800px;
+    width: 325px;
 }
 
 
@@ -154,14 +188,15 @@ img {
     float: left;
 }
 */
+/*
 .container {
-    /*width: 1024px;*/
+    
     width: 100%;
 
     margin: 0 auto;
     display: block;
 }
-
+*/
 #main {
     overflow: hidden;
     background: #fff;
@@ -176,10 +211,11 @@ img {
     /*float: left;*/
 }
 
+/*
 .container img {
-    /*float: left;*/
+   
 }
-
+*/
 .right-box {
     float: right;
     width: 410px;
@@ -428,6 +464,7 @@ a.fbbutton2:hover {
 }
 
 /*imagesのスライドショー*/
+
 .slick-box {
     margin: 0 auto;
     width: 80%;
@@ -438,6 +475,7 @@ a.fbbutton2:hover {
     width: 100%;
 }
 
+/*
 #images {
     margin-bottom: 100px;
 }
@@ -460,7 +498,7 @@ footer {
     transform: translateY(20px);
     transition: all 1s;
 }
-
+*/
 /*
 #course p{
     font-size: 16px;
