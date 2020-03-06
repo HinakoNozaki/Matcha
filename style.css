@@ -19,27 +19,20 @@ body {
     background: #f9f9f9;
 }
 
-h1 {
-    font-family: ETopFont;
-    font-size: 60px;
-    color: #78422a;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
+/*
 p {
     margin-bottom: 16px;
     line-height: 1.5;
     font-family: "ヒラギノ角ゴ Pro W3", sans-serif;
 }
-
+*/
 .main-visual {
     width: 100%;
     /*height: 100vh;*/
     height: 774px;
     background: #fff url(images/mainvisual1.png) 0 0 no-repeat;
     background-size: cover;
+   
     /*margin-bottom: 32px;*/
     /*position: relative;*/
 
@@ -56,9 +49,18 @@ p {
 }
 
 .area h1 {
+    font-family: ETopFont;
+    font-size: 60px;
+    color: #78422a;
+    margin-bottom: 10px;
+    text-align: center;
     margin-bottom: 56px;
 }
-
+/*
+.area h1 {
+    margin-bottom: 56px;
+}
+*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +84,26 @@ p {
     width: 100%;
 }
 
+/*エリアページ*/
+.area-top {
+    width: 100%;
+    height: 1330px;
+    background: #f7f3e9;
+    top: 0px;
+    /*padding-top: 36px;*/
+
+}
+
+.area-top h1 {
+    font-family: JTopFont;
+    font-size: 42px;
+    color: #c73c60;
+    /*margin-bottom: 10px;*/
+    text-align: center;
+    /*margin-bottom: 56px;*/
+}
+
+/*
 .bg-slider {
     width: 100vw;
     height: 100vh;
@@ -99,9 +121,9 @@ p {
 
 #container {
     width: 100%;
-    /*position: relative;*/
+    
 }
-
+*/
 .logo {
     position: absolute;
     top: 50%;
@@ -114,7 +136,7 @@ p {
     width: 325px;
 }
 
-
+/*
 #header {
     width: 1024px;
     overflow: hidden;
@@ -140,7 +162,7 @@ nav li {
     float: left;
     margin-top: 2px;
 }
-
+*/
 /*
 nav h1{
     font-size: 32px;
@@ -149,6 +171,7 @@ nav h1{
     text-shadow: 1px 1px 1px #000;
 }
 */
+/*
 nav a {
 
     font-size: 30px;
@@ -162,7 +185,7 @@ nav a {
 }
 
 nav a:hover {
-    /*border-bottom: 3px solid #f9f9f9;*/
+    
     color: #3D5CDB;
 }
 
@@ -173,7 +196,7 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+*/
 /*
 h2.we {
     position: absolute;
@@ -197,25 +220,26 @@ img {
     display: block;
 }
 */
+/*
 #main {
     overflow: hidden;
     background: #fff;
-    /*width: 1024px;*/
+   
     width: 100%;
 
-    /*padding: 16px;*/
     padding-top: 50px;
     margin: 0 auto;
     display: block;
 
-    /*float: left;*/
+   
 }
-
+*/
 /*
 .container img {
    
 }
 */
+/*
 .right-box {
     float: right;
     width: 410px;
@@ -242,7 +266,7 @@ a.fbbutton1 {
     padding: 8px 32px;
     background: #3D5CDB;
     color: #f9f9f9;
-    /*border: 1px solid #000;*/
+  
     border-radius: 12px;
     text-decoration: none;
 }
@@ -254,7 +278,7 @@ a.fbbutton2 {
     padding: 8px 32px;
     background: #FFBF00;
     color: #f9f9f9;
-    /*border: 1px solid #000;*/
+   
     border-radius: 12px;
     text-decoration: none;
 }
@@ -266,7 +290,7 @@ a.fbbutton1:hover {
 a.fbbutton2:hover {
     box-shadow: 0 0 10px gray;
 }
-
+*/
 
 /*
 #header h1{
@@ -275,18 +299,15 @@ a.fbbutton2:hover {
     margin-right: 48px;
 }*/
 
-
+/*
 .content {
-    /*border-bottom: 1px solid #eee;*/
+   
     padding: 40px 0;
     overflow: hidden;
     width: 1000px;
     margin: 0 auto;
     display: block;
 
-    /*
-    width 100px;
-    background: #000000;*/
 }
 
 .top-title {
@@ -311,9 +332,10 @@ a.fbbutton2:hover {
     position: relative;
     height: 1000px;
 }
-
+*/
+/*
 #courses {
-    /*position: absolute;*/
+    
     position: relative;
     margin: 0 auto;
 }
@@ -332,7 +354,7 @@ a.fbbutton2:hover {
 .courses h1 {
     margin-bottom: 60px;
 }
-
+*/
 /*
 #course{
     
@@ -344,12 +366,13 @@ a.fbbutton2:hover {
     background: #fff;
     padding: 8px;
 }*/
+/*
 .htmlBox {
     width: 960px;
     height: 370px;
     margin: 0px 12px;
     margin-top: 100px;
-    /*margin-bottom: 20px;*/
+    
     background: #00000000;
     padding: 8px;
     margin: 0 auto;
@@ -360,7 +383,7 @@ a.fbbutton2:hover {
     height: 370px;
     margin: 0px 12px;
     margin-top: 100px;
-    /*margin-bottom: 20px;*/
+   
     background: #00000000;
     padding: 8px;
     margin: 0 auto;
@@ -370,7 +393,7 @@ a.fbbutton2:hover {
     width: 200px;
     height: 330px;
     margin: 0px 12px;
-    /*margin-top: 100px;*/
+    
     margin-bottom: 20px;
     border-radius: 12px;
     background: #fff;
@@ -386,7 +409,7 @@ a.fbbutton2:hover {
     margin-top: 30px;
     /*margin-bottom: 30px;*/
 }
-
+*/
 /*
 .cimg{
     margin-bottom: 16px;
@@ -395,7 +418,7 @@ a.fbbutton2:hover {
 
 
 
-
+/*
 .cbutton {
 
     font-size: 13px;
@@ -403,8 +426,7 @@ a.fbbutton2:hover {
     padding: 13px 30px;
 
     color: #f9f9f9;
-    /*border: 1px solid #000;*/
-
+   
     border-radius: 10px;
     text-decoration: none;
 
@@ -415,7 +437,7 @@ a.fbbutton2:hover {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-    /*margin-bottom: 20px;*/
+    
 }
 
 .cbutton:hover {
@@ -431,7 +453,7 @@ a.fbbutton2:hover {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-    /*bottom:100px;*/
+    
 
 }
 
@@ -462,19 +484,19 @@ a.fbbutton2:hover {
 #go {
     background: #66CCCC;
 }
-
+*/
 /*imagesのスライドショー*/
-
+/*
 .slick-box {
     margin: 0 auto;
     width: 80%;
 }
 
 .slick-box img {
-    /*height: auto;*/
+    
     width: 100%;
 }
-
+*/
 /*
 #images {
     margin-bottom: 100px;
