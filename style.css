@@ -114,7 +114,7 @@ p {
 
 .area-top h1 {
     font-family: JTopFont;
-    font-size: 42px;
+    font-size: 63px;
     color: #c73c60;
     /*margin-bottom: 10px;*/
     text-align: center;
@@ -196,7 +196,7 @@ p {
 
 h2 {
     font-family: 'JTopFont';
-    font-size: 40px;
+    font-size: 45px;
     color: #c73c60;
     padding-top: 60px;
     margin-bottom: 30px;
@@ -205,7 +205,7 @@ h2 {
 p {
     font-family: "游明朝", "YuMincho", serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 30px;
     color: #78422a;
 }
@@ -213,7 +213,7 @@ p {
 .detail a{
     font-family: "游明朝", "YuMincho", serif;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 40px;
     color: #78422a;
 }
