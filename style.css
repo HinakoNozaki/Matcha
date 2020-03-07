@@ -177,7 +177,7 @@ p {
 }
 
 .left {
-    width: 550px;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -186,8 +186,8 @@ p {
 
 .left-box {
     float: left;
-
-    margin-right: 40px;
+    width: 35%;
+    margin-right: 8%;
     /*width: 200px;
    margin-left: 400px;*/
 }
@@ -195,7 +195,7 @@ p {
 
 h2 {
     font-family: 'JTopFont';
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #c73c60;
     padding-top: 60px;
     margin-bottom: 30px;
@@ -204,7 +204,7 @@ h2 {
 p {
     font-family: "游明朝", "YuMincho", serif;
     font-weight: bold;
-    font-size: 16px;
+    /*font-size: 16px;*/
     line-height: 30px;
     color: #78422a;
 }
