@@ -31,7 +31,7 @@ p {
 .main-visual {
     width: 100%;
     /*height: 100vh;*/
-    height: 774px;
+    height: 100vh;
     background: #fff url(images/mainvisual1.png) 0 0 no-repeat;
     background-size: cover;
 
