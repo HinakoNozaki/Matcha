@@ -158,40 +158,31 @@ p {
 
     /*margin-bottom: 32px;*/
     position: relative;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
     padding-bottom: 60px;
-
+    
 }
 
 .cream {
     width: 100%;
     height: 650px;
     background: #f7f3e9;
-    padding-top: 100px;
-
-}
-/*
-.right {
-    width: 550px;
+    /*padding-top: 100px;*/
     margin: 0 auto;
-
 }
-
-.left {
-    width: 80%;
-    margin: 0 auto;
-
-}
-*/
 
 .right, .left {
     width: 90%;
+
     box-sizing: border-box;
     padding: 30px;
     float: left;
+    transform: translateY(5%) translateX(5%);
+    /*-webkit- transform: translateY(-50%) translateX(-50%);*/
+    
 }
 
-.right-box, left-box {
+.right-box, .left-box {
     width: 300px;
     float: left;
 }
@@ -206,6 +197,20 @@ p {
 .left-box{
     margin-right: 50px;
 }
+
+/*
+.right {
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+.left {
+    width: 80%;
+    margin: 0 auto;
+
+}
+*/
 
 
 /*
