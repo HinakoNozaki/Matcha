@@ -170,7 +170,7 @@ p {
     padding-top: 100px;
 
 }
-
+/*
 .right {
     width: 550px;
     margin: 0 auto;
@@ -182,7 +182,33 @@ p {
     margin: 0 auto;
 
 }
+*/
 
+.right, .left {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 30px;
+    float: left;
+}
+
+.right-box, left-box {
+    width: 300px;
+    float: left;
+}
+
+.right iframe, .left iframe{
+    float: left;
+}
+
+.right-box{
+    margin-left: 50px;
+}
+.left-box{
+    margin-right: 50px;
+}
+
+
+/*
 .right-box {}
 
 .left-box {
@@ -191,11 +217,9 @@ p {
     margin-left: 10%;
     margin-right: 8%;
     transform: translateY(40%);
-    /*-webkit- transform: translateY(-50%);*/
-    /*width: 200px;
-   margin-left: 400px;*/
+    
 }
-
+*/
 
 h2 {
     font-family: 'JTopFont';
