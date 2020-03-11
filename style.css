@@ -89,6 +89,7 @@ p {
     justify-content: center;
 }
 
+
 .item {
     width: 350px;
     color: #78422a;
@@ -96,6 +97,11 @@ p {
     border: 2px solid #78422a;
     padding: 10px 0px;
     margin: 20px 36px;
+}
+
+.item:hover{
+    color: #f7f3e9;
+    background: #78422a;
 }
 
 .areaMap img {
