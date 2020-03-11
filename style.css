@@ -149,7 +149,9 @@ p {
     margin: 20px 16px;
 }
 
-
+.instahover:hover{
+    box-shadow: 0 0 8px gray;
+}
 
 .detail {}
 
