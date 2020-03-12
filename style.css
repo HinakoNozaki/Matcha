@@ -228,9 +228,9 @@ p {
     float: left;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    /*left: 50%;*/
+    transform: translateY(-50%) /*translateX(-50%)*/;
+    -webkit- transform: translateY(-50%) /*translateX(-50%)*/;
     /*transform: translateY(5%) translateX(5%);*/
     
     
@@ -239,6 +239,11 @@ p {
 .right-box, .left-box {
     width: 300px;
     float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
     
 }
 
