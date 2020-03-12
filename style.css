@@ -240,13 +240,21 @@ p {
 .right-box, .left-box {
     width: 300px;
     float: left;
-    position: absolute;
-    top: 50%;
-    /*left: 50%;*/
-    transform: translateY(-50%) /*translateX(-50%)*/;
-    -webkit- transform: translateY(-50%) /*translateX(-50%)*/;
+   
     
 }
+
+.right-box{
+    width: 300px;
+    /*float: left;*/
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    
+}
+
 
 .right iframe, .left iframe{
     float: left;
