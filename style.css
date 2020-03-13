@@ -216,12 +216,39 @@ p {
     height: 700px;
     background: #f7f3e9;
     position: relative;
-    /*padding-top: 100px;*/
+   
     margin: 0 auto;
     padding-bottom: 60px;
 }
 
+.right, .left {
+    width: 90%;
+  
+    box-sizing: border-box;
+    padding: 30px;
+    float: left;
+    /*position: absolute;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    */
+}
 
+.right-box, .left-box {
+    width: 300px;
+    float: left;
+   
+    
+}
+
+.right iframe, .left iframe{
+    float: left;
+}
+
+
+/*
 .right, .left {
     width: 90%;
   
@@ -234,7 +261,7 @@ p {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-    /*transform: translateY(5%) translateX(5%);*/
+  
     
     
 }
@@ -248,7 +275,7 @@ p {
 
 .right-box{
     width: 300px;
-    /*float: left;*/
+   
    position: absolute;
     top: 50%;
     left: 60%;
@@ -259,7 +286,7 @@ p {
 
 .left-box{
     width: 300px;
-    /*float: left;*/
+  
    position: absolute;
     top: 50%;
     left: 20%;
@@ -269,22 +296,16 @@ p {
 }
 
 
-/*
-.right iframe, .left iframe{
-    float: left;
-}*/
+
 .right iframe{
     float: left;
 }
 .left iframe{
-    /*float: right;*/
+    
     left: 60%;
 }
 
-.right {
-    /*transform: translateY(5%) translateX(10%);*/
-   
-}
+
 
 .right-box{
     margin-left: 10%;
@@ -294,34 +315,8 @@ p {
     margin-right: 10%;
     padding-left: 10%;
 }
-
-/*
-.right {
-    width: 550px;
-    margin: 0 auto;
-
-}
-
-.left {
-    width: 80%;
-    margin: 0 auto;
-
-}
 */
 
-
-/*
-.right-box {}
-
-.left-box {
-    float: left;
-    width: 35%;
-    margin-left: 10%;
-    margin-right: 8%;
-    transform: translateY(40%);
-    
-}
-*/
 
 h2 {
     font-family: 'ETopFont','JTopFont';
