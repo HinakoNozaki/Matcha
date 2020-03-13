@@ -189,7 +189,9 @@ p {
     box-shadow: 0 0 8px gray;
 }
 */
-.detail {}
+.detail {
+  
+}
 
 .detail p {}
 
@@ -217,7 +219,7 @@ p {
     background: #f7f3e9;
     position: relative;
     /*padding-top: 100px;*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-bottom: 60px;
 }
 
@@ -231,9 +233,12 @@ p {
     position: absolute;
     position: relative;
     top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*left: 50%;*/
+    transform: translateY(-50%) ;
+    -webkit- transform: translateY(-50%) ;
     /*transform: translateY(5%) translateX(5%);*/
     
     
@@ -246,7 +251,7 @@ p {
     float: left;
    position: absolute;
     top: 50%;
-    left: 335px;
+    left: 60%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
 }
