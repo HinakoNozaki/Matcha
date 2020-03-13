@@ -258,7 +258,7 @@ p {
 .right iframe, .left iframe{
     float: left;
 }
-
+/*
 .left iframe{
     float: left;
     position: absolute;
@@ -268,7 +268,7 @@ p {
     transform: translateY(-50%);
     -webkit- transform: translateY(-50%);
 }
-
+*/
 
 /*
 .right, .left {
