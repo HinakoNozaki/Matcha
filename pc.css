@@ -196,17 +196,17 @@ p {
 
 
 
-
+/*
 .green {
     width: 100%;
-    /*height: 100vh;*/
+    
     height: 600px;
     background: #fff url(images/pc_detail.png) 0 0 no-repeat;
     background-size: cover;
 
-    /*margin-bottom: 32px;*/
+  
     position: relative;
-    /*padding-top: 80px;*/
+ 
     padding-bottom: 60px;
     
 }
@@ -215,19 +215,19 @@ p {
     width: 100%;
     height: 600px;
     background: #f7f3e9;
-    /*padding-top: 100px;*/
+   
     margin: 0 auto;
     padding-bottom: 60px;
 }
 
 .right, .left {
-    width: 45%;
-
+    width: 50%;
+    height: 700px;
     box-sizing: border-box;
     padding: 30px;
     float: left;
     transform: translateY(5%) translateX(5%);
-    /*-webkit- transform: translateY(-50%) translateX(-50%);*/
+    
     
 }
 
@@ -244,6 +244,100 @@ p {
 .right {
     transform: translateY(5%) translateX(10%);
    
+}*/
+
+
+.green {
+    width: 100%;
+    /*height: 100vh;*/
+    height: 700px;
+    background: #fff url(images/sp_detail.png) 0 0 no-repeat;
+    background-size: cover;
+
+    /*margin-bottom: 32px;*/
+    position: relative;
+    /*padding-top: 80px;*/
+    /*padding-bottom: 60px;*/
+   
+    
+}
+
+.cream {
+    width: 100%;
+    height: 700px;
+    background: #f7f3e9;
+    position: relative;
+    /*padding-top: 100px;*/
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+
+.right, .left {
+    width: 50%;
+  
+    box-sizing: border-box;
+    padding: 30px;
+    float: left;
+    position: absolute;
+    position: relative;
+    top: 50%;
+    /*left: 50%;*/
+    transform: translateY(-50%) ;
+    -webkit- transform: translateY(-50%) ;
+    /*transform: translateY(5%) translateX(5%);*/
+    
+    
+}
+
+.right iframe{
+    float: left;
+}
+.left iframe{
+    /*float: right;*/
+    left: 60%;
+}
+
+.right-box, .left-box {
+    width: 300px;
+    float: left;
+   
+    
+}
+
+.right-box{
+    width: 300px;
+    /*float: left;*/
+   position: absolute;
+    top: 50%;
+    /*left: 30%;*/
+    left: 335px;
+    transform: translateY(-50%);
+    -webkit- transform: translateY(-50%);
+    
+}
+
+.left-box{
+    width: 300px;
+    /*float: left;*/
+   position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    
+}
+
+
+/*
+.right iframe, .left iframe{
+    float: left;
+}*/
+
+
+.right {
+    /*transform: translateY(5%) translateX(10%);*/
+   
 }
 
 .right-box{
@@ -254,7 +348,16 @@ p {
     margin-right: 10%;
     padding-left: 10%;
 }
-
+/*
+.right-box{
+    margin-left: 10%;
+ 
+}
+.left-box{
+    margin-right: 10%;
+    padding-left: 10%;
+}
+*/
 /*
 .right {
     width: 550px;
