@@ -244,6 +244,11 @@ p {
    
     
 }
+
+.left-box{
+    float: left;
+    padding-top: 50%;
+}
 /*
 .left-box{
     position: absolute;
