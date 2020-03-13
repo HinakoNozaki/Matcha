@@ -239,8 +239,9 @@ p {
 .right-box, .left-info {
     width: 300px;
     height: 688px;
+    position: relative;
     float: left;
-   position: relative;
+   
     
 }
 
@@ -251,6 +252,7 @@ p {
     
     transform: translateY(-50%);
     -webkit- transform: translateY(-50%);
+    
 }
 
 .right iframe, .left iframe{
