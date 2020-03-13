@@ -221,6 +221,7 @@ p {
     padding-bottom: 60px;
 }
 
+
 .right, .left {
     width: 90%;
   
@@ -256,9 +257,28 @@ p {
     
 }
 
+.left-box{
+    width: 300px;
+    /*float: left;*/
+   position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    
+}
 
+
+/*
 .right iframe, .left iframe{
     float: left;
+}*/
+.right iframe{
+    float: left;
+}
+.left iframe{
+    /*float: right;*/
+    left: 60%;
 }
 
 .right {
@@ -339,6 +359,7 @@ p {
     /*height: 100vh;*/
     height: 600px;
     background: #fff url(images/sp_detail.png) 0 0 no-repeat;
+    
     background-size: cover;
 
     /*margin-bottom: 32px;*/
