@@ -246,10 +246,12 @@ p {
 }
 
 /*ここ消せば初心に戻る*/
+/*
 .left-box{
     float: left;
     padding-top: 50%;
 }
+*/
 /*
 .left-box{
     position: absolute;
