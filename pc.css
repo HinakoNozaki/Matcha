@@ -198,10 +198,10 @@ p {
 
 
 .green {
-    width: 100%;
+    width: 50%;
     /*height: 100vh;*/
     height: 600px;
-    background: #fff url(images/sp_detail.png) 0 0 no-repeat;
+    background: #fff url(images/pc_detail.png) 0 0 no-repeat;
     background-size: cover;
 
     /*margin-bottom: 32px;*/
@@ -221,7 +221,7 @@ p {
 }
 
 .right, .left {
-    width: 90%;
+    width: 45%;
 
     box-sizing: border-box;
     padding: 30px;
