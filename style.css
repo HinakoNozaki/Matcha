@@ -238,6 +238,7 @@ p {
 
 .right-box, .left-info {
     width: 300px;
+    height: 688px;
     float: left;
    position: relative;
     
