@@ -226,7 +226,7 @@ p {
     width: 50%;
   
     box-sizing: border-box;
-    padding: 30px;
+    /*padding: 30px;*/
     float: left;
     position: absolute;
     position: relative;
