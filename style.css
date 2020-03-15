@@ -162,10 +162,10 @@ p {
 
 
 .information{
-    width: 160px;
+    width: 170px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .shoplink{
@@ -175,7 +175,7 @@ p {
     text-decoration: none;
     border: 2px solid #c73c60;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 25px;
     text-align: center;
    
 }
@@ -238,7 +238,7 @@ p {
 }
 
 .right-box, .left-info {
-    width: 300px;
+    width: 350px;
     /*height: 688px;*/
     position: relative;
     float: left;
