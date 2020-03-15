@@ -51,7 +51,7 @@ p {
     -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
-.pc-mainvisual{
+.pc-mainvisual {
     display: none;
 }
 
@@ -105,7 +105,7 @@ p {
     margin: 20px 36px;
 }
 
-.item:hover{
+.item:hover {
     color: #f7f3e9;
     background: #78422a;
 }
@@ -156,19 +156,19 @@ p {
     margin: 50px 40px;
     /*margin: 0 auto;*/
     /*margin: 20px 16px;*/
-    
+
 }
 
 
 
-.information{
+.information {
     width: 230px;
     margin: 0 auto;
     text-align: center;
     margin-top: 38px;
 }
 
-.shoplink{
+.shoplink {
     /*width: 210px;*/
     color: #c73c60;
     font-family: 'JTopFont';
@@ -178,10 +178,10 @@ p {
     border-radius: 5px;
     padding: 10px 25px;
     text-align: center;
-   
+
 }
 
-.shoplink:hover{
+.shoplink:hover {
     color: #f7f3e9;
     background: #c73c60;
 }
@@ -209,8 +209,8 @@ p {
     position: relative;
     /*padding-top: 80px;*/
     /*padding-bottom: 60px;*/
-   
-    
+
+
 }
 
 .cream {
@@ -218,14 +218,15 @@ p {
     height: 700px;
     background: #f7f3e9;
     position: relative;
-   
+
     margin: 0 auto;
     padding-bottom: 60px;
 }
 
-.right, .left {
+.right,
+.left {
     width: 90%;
-  
+
     box-sizing: border-box;
     padding: 30px;
     float: left;
@@ -235,16 +236,17 @@ p {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-    
+
 }
 
-.right-box, .left-info {
+.right-box,
+.left-info {
     width: 350px;
     /*height: 688px;*/
     position: relative;
     float: left;
-   
-    
+
+
 }
 
 /*ここ消せば初心に戻る*/
@@ -265,9 +267,11 @@ p {
     
 }*/
 
-.right iframe, .left iframe{
+.right iframe,
+.left iframe {
     float: left;
 }
+
 /*
 .left iframe{
     float: left;
@@ -351,17 +355,17 @@ p {
 
 
 h2 {
-    font-family: 'ETopFont','JTopFont';
+    font-family: 'ETopFont', 'JTopFont';
     font-size: 55px;
-   line-height: 65px;
+    line-height: 65px;
     color: #c73c60;
     /*padding-top: 60px;*/
     margin-bottom: 30px;
-    
+
 }
 
-span{
-    
+span {
+
     font-size: 27px;
     line-height: 0px;
 }
@@ -375,33 +379,33 @@ p {
     color: #78422a;
 }
 
-.detail a{
+.detail a {
     font-family: "游明朝", "YuMincho", serif;
     font-weight: bold;
     font-size: 23px;
     line-height: 40px;
-    
+
     color: #78422a;
 }
 
-.shopMap{
+.shopMap {
     width: 100%;
     /*height: 100vh;*/
     height: 600px;
     background: #fff url(images/sp_detail.png) 0 0 no-repeat;
-    
+
     background-size: cover;
 
     /*margin-bottom: 32px;*/
     position: relative;
     /*padding-top: 80px;*/
     padding-bottom: 60px;
-    
+
 }
 
 .shopMap iframe {
     margin: 0 auto;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
@@ -409,4 +413,11 @@ p {
     /*top: 500px;*/
     /*padding-top: 50px;*/
     display: block;
+}
+
+
+.fadein {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
 }

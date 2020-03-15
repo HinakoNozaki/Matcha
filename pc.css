@@ -50,7 +50,7 @@ p {
     -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
-.pc-mainvisual{
+.pc-mainvisual {
     display: none;
 }
 
@@ -104,7 +104,7 @@ p {
     margin: 20px 36px;
 }
 
-.item:hover{
+.item:hover {
     color: #f7f3e9;
     background: #78422a;
 }
@@ -155,19 +155,19 @@ p {
     margin: 50px 40px;
     /*margin: 0 auto;*/
     /*margin: 20px 16px;*/
-    
+
 }
 
 
 
-.information{
+.information {
     width: 160px;
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
 }
 
-.shoplink{
+.shoplink {
     /*width: 210px;*/
     color: #c73c60;
     font-family: 'JTopFont';
@@ -176,10 +176,10 @@ p {
     border-radius: 5px;
     padding: 5px 20px;
     text-align: center;
-   
+
 }
 
-.shoplink:hover{
+.shoplink:hover {
     color: #f7f3e9;
     background: #c73c60;
 }
@@ -189,9 +189,7 @@ p {
     box-shadow: 0 0 8px gray;
 }
 */
-.detail {
-  
-}
+.detail {}
 
 .detail p {}
 
@@ -209,8 +207,8 @@ p {
     position: relative;
     /*padding-top: 80px;*/
     /*padding-bottom: 60px;*/
-   
-    
+
+
 }
 
 .cream {
@@ -224,29 +222,29 @@ p {
 }
 
 
-.right{
+.right {
     width: 50%;
-  
+
     box-sizing: border-box;
     /*padding: 30px;*/
     float: left;
     position: absolute;
     position: relative;
     top: 50%;
-   
+
     padding-left: 20px;
-    
+
     /*left: 50%;*/
-    transform: translateY(-50%) ;
-    -webkit- transform: translateY(-50%) ;
+    transform: translateY(-50%);
+    -webkit- transform: translateY(-50%);
     /*transform: translateY(5%) translateX(5%);*/
-    
-    
+
+
 }
 
-.left{
+.left {
     width: 50%;
-  
+
     box-sizing: border-box;
     /*padding: 30px;*/
     float: left;
@@ -255,18 +253,19 @@ p {
     top: 50%;
     left: 50%;
     padding-left: 20px;
-    
+
     /*left: 50%;*/
-    transform: translateY(-50%) ;
-    -webkit- transform: translateY(-50%) ;
+    transform: translateY(-50%);
+    -webkit- transform: translateY(-50%);
 }
 
-.right-box, .left-box {
+.right-box,
+.left-box {
 
-   
+
     width: 250px;
     float: left;
-   position: absolute;
+    position: absolute;
     top: 50%;
     left: 490px;
     transform: translateY(-50%) translateX(-50%);
@@ -279,10 +278,11 @@ p {
 .right iframe, .left iframe{
     float: left;
 }*/
-.right iframe{
+.right iframe {
     float: left;
 }
-.left iframe{
+
+.left iframe {
     margin-right: 5px;
     /*float: right;*/
     /*left: 60%;*/
@@ -290,15 +290,16 @@ p {
 
 .right {
     /*transform: translateY(5%) translateX(10%);*/
-   
+
 }
 
-.right-box{
+.right-box {
     /*margin-left: 10%;*/
- 
+
 }
-.left-box{
-   
+
+.left-box {
+
     /*padding-left: 10%;*/
 }
 
@@ -331,17 +332,17 @@ p {
 */
 
 h2 {
-    font-family: 'ETopFont','JTopFont';
+    font-family: 'ETopFont', 'JTopFont';
     font-size: 40px;
-   
+
     color: #c73c60;
     /*padding-top: 60px;*/
     margin-bottom: 30px;
-    
+
 }
 
-span{
-    
+span {
+
     font-size: 17px;
 }
 
@@ -353,7 +354,7 @@ p {
     color: #78422a;
 }
 
-.detail a{
+.detail a {
     font-family: "游明朝", "YuMincho", serif;
     font-weight: bold;
     font-size: 20px;
@@ -361,24 +362,24 @@ p {
     color: #78422a;
 }
 
-.shopMap{
+.shopMap {
     width: 100%;
     /*height: 100vh;*/
     height: 600px;
     background: #fff url(images/pc_map.png) 0 0 no-repeat;
-    
+
     background-size: cover;
 
     /*margin-bottom: 32px;*/
     position: relative;
     /*padding-top: 80px;*/
     padding-bottom: 60px;
-    
+
 }
 
 .shopMap iframe {
     margin: 0 auto;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
@@ -386,4 +387,11 @@ p {
     /*top: 500px;*/
     /*padding-top: 50px;*/
     display: block;
+}
+
+
+.fadein {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
 }

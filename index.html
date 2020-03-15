@@ -11,7 +11,7 @@
     <title>Matcha Sweets</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">　
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!--
     <link rel="stylesheet" href="style.css">
@@ -46,27 +46,43 @@
         </div>
     </div>
 
-    <div class="area">
-        <h1>Area</h1>
-        <div class="container">
-            <a href="./asakusa.html" class="item">浅草・押上</a>
-            <a href="./ginza.html" class="item">銀座・新橋</a>
-            <a href="./sibuya.html" class="item">渋谷</a>
-            <a href="./roppongi.html" class="item">六本木・表参道</a>
-            <a href="./kagurazaka.html" class="item">神楽坂・飯田橋</a>
-            <a href="./marunouchi.html" class="item">丸の内・上野</a>
-            <a href="./nikotama.html" class="item">二子玉川・自由が丘</a>
-            <a href="./nishiogikubo.html" class="item">西荻窪・吉祥寺</a>
-            <a href="./sinzyuku.html" class="item">新宿</a>
-            <a href="./sonota.html" class="item">その他</a>
+    <div class="fadein">
+        <div class="area">
+            <h1>Area</h1>
+            <div class="container">
+                <a href="./asakusa.html" class="item">浅草・押上</a>
+                <a href="./ginza.html" class="item">銀座・新橋</a>
+                <a href="./sibuya.html" class="item">渋谷</a>
+                <a href="./roppongi.html" class="item">六本木・表参道</a>
+                <a href="./kagurazaka.html" class="item">神楽坂・飯田橋</a>
+                <a href="./marunouchi.html" class="item">丸の内・上野</a>
+                <a href="./nikotama.html" class="item">二子玉川・自由が丘</a>
+                <a href="./nishiogikubo.html" class="item">西荻窪・吉祥寺</a>
+                <a href="./sinzyuku.html" class="item">新宿</a>
+                <a href="./sonota.html" class="item">その他</a>
+            </div>
         </div>
     </div>
-<!--
+    <!--
     <div class="areaMap">
         <img src="images/topMap.png" alt="" width="">
     </div>
     -->
 
-</body>
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                $('.fadein').each(function() {
+                    var targetElement = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > targetElement - windowHeight + 200) {
+                        $(this).css('opacity', '1');
+                        $(this).css('transform', 'translateY(0)');
+                    }
+                });
+            });
+        });
+    </script>
 
-</html>
+</body></html>
