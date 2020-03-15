@@ -127,7 +127,7 @@ p {
 
 .area-top h1 {
     font-family: JTopFont;
-    font-size: 63px;
+    font-size: 75px;
     color: #c73c60;
     /*margin-bottom: 10px;*/
     text-align: center;
@@ -361,7 +361,7 @@ h2 {
 
 span{
     
-    font-size: 17px;
+    font-size: 23px;
 }
 
 p {
@@ -369,6 +369,7 @@ p {
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
+    padding-bottom: 20px;
     color: #78422a;
 }
 
@@ -377,6 +378,7 @@ p {
     font-weight: bold;
     font-size: 23px;
     line-height: 40px;
+    
     color: #78422a;
 }
 
